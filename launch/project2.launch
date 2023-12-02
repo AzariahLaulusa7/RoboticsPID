@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" value="duckie"/>
+    <group>
+	<include file="$(find duckiebot_interface)/launch/duckie.launch"/>
+    </group>
+
+    <group>
+        <arg name="node_name" default="project2"/>
+        <node ns="$(arg veh)"  pkg="project2" type="$(arg node_name).py" name="$(arg node_name)" output="screen" required="true" />
+    </group>   
+</launch>
