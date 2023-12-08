@@ -42,14 +42,7 @@ Navigate the Duckiebot in a square pattern on the lab floor. At each stop:
 After completing the square, display a cool pattern with the LEDs.
 
 ### Challenges Faced:
-The main challenge we faced during this project was understanding the PID controller. We complicated the assignment by focusing too much\
-on the ticks, when the solution was analyzing how the PID controller changed the robot's reaction. When the robot took a 90 degree turn,\
-we wanted to reset the ticks and start fresh, which took a lot thought process and calculating. After taking a step back, we realized that\ 
-the robot has a "true north" because of the PID controller. The robot will do anything to stay on the straight line it started on. To solve\ 
-this problem, we needed to change the robot's "true north", which we defined as the setpoint, every time it turned the setpoint increases\ 
-and is add/subtracted to the ticks. We also faced minor challenges like the friction and slippage from the environment, the robot wheels falling\ 
-off and causing spikes in the tick values, the connection to the robot constently crashing, and inconsistent results. Overall, it was a fun learning\
-experience.
+The main challenge we faced during this project was understanding the PID controller. We complicated the assignment by focusing too much on the ticks, when the solution was analyzing how the PID controller changed the robot's reaction. When the robot took a 90 degree turn, we wanted to reset the ticks and start fresh, which took a lot thought process and calculating. After taking a step back, we realized that the robot has a "true north" because of the PID controller. The robot will do anything to stay on the straight line it started on. To solve this problem, we needed to redefine the robot's "true north", which we defined as the setpoint, every time it turned the setpoint increases and is add/subtracted to the ticks. We also faced minor challenges like the friction and slippage from the environment, the robot wheels falling off and causing spikes in the tick values, the connection to the robot constently crashing, and inconsistent results. Overall, it was a fun learning experience.
 
 ### Submission:
 
