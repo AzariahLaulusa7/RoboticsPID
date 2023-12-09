@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/b-DAApyw)
 # Project 2: Duckiebot Wheel Calibration Using Closed-Loop Controller
 
-**Video Link:** [Replace with your video link]
+**Video Link:** https://youtu.be/OYewqFhByPA?si=1PNADSUcRY1KQv8A
 
 ## Objective:
 Drive the Duckiebot in a straight line and a square pattern on the lab floor while integrating LED feedback. The Duckiebot should have a closed-loop controller that subscribes to the wheel ticks topics. Ideally, the difference in ticks between the two wheels should be zero when going in a straight line. When turning in place, one wheel will increment ticks positively and the other negatively. The goal is to have the robot move as stably as possible.
